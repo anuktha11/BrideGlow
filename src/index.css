@@ -1,0 +1,52 @@
+body {
+  padding-top: 50px; /* To avoid content going under the fixed navbar */
+}
+
+.header .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.image-section .nara {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-section .nara p {
+  font-size: 1.25rem;
+}
+
+.footer-item {
+  text-align: center;
+  color: #fff;
+}
+
+.footer-item h3 {
+  font-size: 1.5rem;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.rating .star {
+  color: #ffd700;
+}
+
+.rating .star.filled {
+  color: #ffd700;
+}
+
+.rating .star {
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+.service-item .card-title {
+  font-weight: bold;
+}
+
+.service-item .card-text {
+  font-size: 0.9rem;
+}

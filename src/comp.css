@@ -1,0 +1,518 @@
+ 
+.app {
+  font-family: Arial, sans-serif;
+  color: #333333; /* Text Color */
+}
+.header {
+  background: linear-gradient(135deg, #680630, #a10348);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  background: linear-gradient(90deg, #d4af37, #f0ce0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 4rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  margin: 0 15px;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #a04040, 0 0 20px #a04040;
+  text-decoration: none;
+}
+ 
+
+img {
+  width: 10%;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.hero {
+  background-color: #f8f4e3; /* Ivory */
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  color: #474242;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20px;
+  box-shadow: white;
+}
+.image-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  background-color: #770737;
+  margin: 15px;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Media query for small screens (like mobile) */
+@media (max-width: 480px) {
+  .image-item {
+    width: calc(25% - 30px); /* Four items per row */
+    margin: 10px;
+  }
+}
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(243, 223, 223, 0.404));
+  z-index: 1;
+}
+
+.hero h2 {
+  font-size: 48px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  z-index: 2;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.cta {
+  background: linear-gradient(90deg, #d4af37, #dbbc0e);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 2;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cta:hover {
+  background-color: #b59430;
+  transform: scale(1.05);
+}
+
+.hero button {
+  cursor: pointer;
+}
+
+.services {
+  background-color: #680630; /* Soft Blush Pink */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background-color: #d4af37; /* Champagne Gold */
+  color: white;
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.service-item img {
+  width: 100%;
+  height: 350px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+ }
+
+.service-item p {
+  font-size: 16px;
+  color: #f8f4e3; /* Ivory */
+}
+
+.image-section {
+  background-color:white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.nara {
+  color: #af8f26;;
+  text-shadow: 0 0 10px  #daaf25 0 0 20px #f3d46d;
+  font-size:x-large;
+  font-style: italic;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.image-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-item {
+   
+  background-color:#770737; ; /* Champagne Gold */
+  margin: 15px;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+/* Reviews.css */
+.reviews {
+  background-color: #f3eed6; /* Ivory */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #474242; /* Dark Gray */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.review-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Space between review items */
+}
+
+.review-item {
+  background-color: #f0acbf; /* Pink background */
+  color: white;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0; /* Prevent items from shrinking */
+}
+
+.review-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-content {
+  flex: 1;
+}
+
+.review-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  font-size: 20px;
+  color: #4b432db4; /* Champagne Gold */
+}
+
+.star.filled {
+  color: #f0ce0f; /* Highlighted Yellow */
+}
+.footer {
+  background-color: #8b0941;;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.footer-item h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-item p {
+  margin: 5px 0;
+}
+
+.footer-item a {
+  color: #f4a261; /* Light orange color for links */
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid  #f3d46d;;
+  padding-top: 10px;
+}
+/* Ensures the images in the service items are responsive and do not overflow */
+.service-item img {
+  width: 100%;
+  height: 400px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Ensures the review photos are responsive and maintain aspect ratio */
+.review-photo {
+  width: 100%;
+  max-width: 100px; /* Maintain responsiveness */
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* General responsiveness adjustments */
+@media (max-width: 768px) {
+  .service-item, .review-item {
+    width: 100%; /* Make items take full width on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  /* Adjusting text size for smaller screens */
+  .services h2,
+  .reviews h2 {
+    font-size: 28px;
+  }
+
+  .service-item h3,
+  .review-text {
+    font-size: 20px;
+  }
+}
+
+/* Ensures no image overflow for small screens */
+@media (max-width: 480px) {
+  .image-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* General Styles */
+.reviews {
+  background-color: #f3eed6; /* Ivory */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #474242; /* Dark Gray */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Review List Styles */
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between review items */
+  justify-content: center; /* Center items horizontally */
+}
+
+.review-item {
+  background-color: #f0acbf; /* Pink background */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  max-width: 500px; /* Limit max width for responsiveness */
+  width: 100%;
+  height: auto;
+  margin: 10px; /* Margin for spacing */
+}
+
+.review-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px; /* Space between image and text */
+}
+
+.review-content {
+  flex: 1; /* Take up the remaining space */
+}
+
+.review-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  font-size: 20px;
+  color: #4b432db4; /* Champagne Gold */
+}
+
+.star.filled {
+  color: #f0ce0f; /* Highlighted Yellow */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .review-item {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .review-photo {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Add bottom margin */
+  }
+
+  .reviews h2 {
+    font-size: 28px;
+  }
+
+  .review-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .review-item {
+    padding: 10px;
+    margin: 5px; /* Adjust margins for small screens */
+  }
+
+  .review-photo {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* Media query for small screens (like mobile) */
+@media (max-width: 768px) {
+  .hero-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-images img {
+    width: 45%; /* Adjust as needed */
+    height: auto;
+    margin: 10px;
+  }
+}
