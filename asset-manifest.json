@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/BrideGlow/static/css/main.8fa60d1d.css",
+    "main.js": "/BrideGlow/static/js/main.02e844b9.js",
+    "static/media/pexels-gursher-gill-63702010-13661822.jpg": "/BrideGlow/static/media/pexels-gursher-gill-63702010-13661822.a3f5c4a64efaa3fbb585.jpg",
+    "static/media/pexels-bhoopal-m-642163-1446161.jpg": "/BrideGlow/static/media/pexels-bhoopal-m-642163-1446161.a9110267bed6238962b6.jpg",
+    "static/media/pexels-minhaz-box-55594885-13123599.jpg": "/BrideGlow/static/media/pexels-minhaz-box-55594885-13123599.7fb411160d54633173b8.jpg",
+    "static/media/pexels-thangaraj-editor-404682596-26181046.jpg": "/BrideGlow/static/media/pexels-thangaraj-editor-404682596-26181046.2ee0b36455b16dbc3abe.jpg",
+    "static/media/h.jpg": "/BrideGlow/static/media/h.949d12fa09de3228a0f9.jpg",
+    "static/media/h2.jpg": "/BrideGlow/static/media/h2.afc20c5f340d64bcf20e.jpg",
+    "static/media/h1.jpg": "/BrideGlow/static/media/h1.58ca834daf96f91a3e13.jpg",
+    "static/media/eye.jpg": "/BrideGlow/static/media/eye.5fbb684bbb276198b521.jpg",
+    "static/media/h4.jpg": "/BrideGlow/static/media/h4.aa8aaf6f0e4a917d9c1a.jpg",
+    "static/media/r.jpg": "/BrideGlow/static/media/r.6fe42819298ef55bd637.jpg",
+    "static/media/r3.jpg": "/BrideGlow/static/media/r3.c8cf84bb25f56ba14b3a.jpg",
+    "static/media/r4.jpg": "/BrideGlow/static/media/r4.1bf75c7fd9f9fa324501.jpg",
+    "static/media/r1.jpg": "/BrideGlow/static/media/r1.c7d9b936551de579f514.jpg",
+    "static/media/b.jpg": "/BrideGlow/static/media/b.15d2c48b258707bb1158.jpg",
+    "static/media/b3.jpg": "/BrideGlow/static/media/b3.1db86e0b3109f8e78717.jpg",
+    "static/media/h7.jpg": "/BrideGlow/static/media/h7.5a2d524c710ccd8eb51c.jpg",
+    "static/media/nail.jpg": "/BrideGlow/static/media/nail.12d99c36299959fa73a9.jpg",
+    "static/media/h5.jpg": "/BrideGlow/static/media/h5.70ebb4d7836b183ac67a.jpg",
+    "index.html": "/BrideGlow/index.html",
+    "main.8fa60d1d.css.map": "/BrideGlow/static/css/main.8fa60d1d.css.map",
+    "main.02e844b9.js.map": "/BrideGlow/static/js/main.02e844b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fa60d1d.css",
+    "static/js/main.02e844b9.js"
+  ]
+}
