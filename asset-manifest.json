@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BrideGlow/static/css/main.8fa60d1d.css",
-    "main.js": "/BrideGlow/static/js/main.02e844b9.js",
+    "main.js": "/BrideGlow/static/js/main.a7623beb.js",
     "static/media/pexels-gursher-gill-63702010-13661822.jpg": "/BrideGlow/static/media/pexels-gursher-gill-63702010-13661822.a3f5c4a64efaa3fbb585.jpg",
     "static/media/pexels-bhoopal-m-642163-1446161.jpg": "/BrideGlow/static/media/pexels-bhoopal-m-642163-1446161.a9110267bed6238962b6.jpg",
     "static/media/pexels-minhaz-box-55594885-13123599.jpg": "/BrideGlow/static/media/pexels-minhaz-box-55594885-13123599.7fb411160d54633173b8.jpg",
@@ -22,10 +22,10 @@
     "static/media/h5.jpg": "/BrideGlow/static/media/h5.70ebb4d7836b183ac67a.jpg",
     "index.html": "/BrideGlow/index.html",
     "main.8fa60d1d.css.map": "/BrideGlow/static/css/main.8fa60d1d.css.map",
-    "main.02e844b9.js.map": "/BrideGlow/static/js/main.02e844b9.js.map"
+    "main.a7623beb.js.map": "/BrideGlow/static/js/main.a7623beb.js.map"
   },
   "entrypoints": [
     "static/css/main.8fa60d1d.css",
-    "static/js/main.02e844b9.js"
+    "static/js/main.a7623beb.js"
   ]
 }
