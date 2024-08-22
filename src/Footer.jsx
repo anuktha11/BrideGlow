@@ -16,7 +16,7 @@ const Footer = () => {
         </Row>
       </Container>
       <div className="footer-bottom text-center mt-3"style={{ backgroundColor: '#a10348' }}>
-        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p>&copy; 2024  Vertex Web Design. All rights reserved.</p>
       </div>
     </footer>
   );
