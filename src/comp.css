@@ -502,3 +502,17 @@ img {
     height: 60px;
   }
 }
+/* Media query for small screens (like mobile) */
+@media (max-width: 768px) {
+  .hero-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-images img {
+    width: 45%; /* Adjust as needed */
+    height: auto;
+    margin: 10px;
+  }
+}
