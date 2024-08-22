@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bueauti/static/css/main.8fa60d1d.css",
-    "main.js": "/bueauti/static/js/main.57b5d882.js",
+    "main.css": "/bueauti/static/css/main.de0509ae.css",
+    "main.js": "/bueauti/static/js/main.7bc23449.js",
     "static/media/pexels-gursher-gill-63702010-13661822.jpg": "/bueauti/static/media/pexels-gursher-gill-63702010-13661822.a3f5c4a64efaa3fbb585.jpg",
     "static/media/pexels-bhoopal-m-642163-1446161.jpg": "/bueauti/static/media/pexels-bhoopal-m-642163-1446161.a9110267bed6238962b6.jpg",
     "static/media/pexels-minhaz-box-55594885-13123599.jpg": "/bueauti/static/media/pexels-minhaz-box-55594885-13123599.7fb411160d54633173b8.jpg",
@@ -21,11 +21,11 @@
     "static/media/nail.jpg": "/bueauti/static/media/nail.12d99c36299959fa73a9.jpg",
     "static/media/h5.jpg": "/bueauti/static/media/h5.70ebb4d7836b183ac67a.jpg",
     "index.html": "/bueauti/index.html",
-    "main.8fa60d1d.css.map": "/bueauti/static/css/main.8fa60d1d.css.map",
-    "main.57b5d882.js.map": "/bueauti/static/js/main.57b5d882.js.map"
+    "main.de0509ae.css.map": "/bueauti/static/css/main.de0509ae.css.map",
+    "main.7bc23449.js.map": "/bueauti/static/js/main.7bc23449.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fa60d1d.css",
-    "static/js/main.57b5d882.js"
+    "static/css/main.de0509ae.css",
+    "static/js/main.7bc23449.js"
   ]
 }
